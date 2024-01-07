@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <link rel="icon" href="./assets/images/tennisball.svg" type="image/x-icon">
+    <title>XXI Tenis</title>
+</head>
+
+<body class="bg-gray-100">
+
+    <nav class="bg-white p-4 fixed top-0 left-0 w-full">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-gray-800 hover:text-#0d6efd transition">
+                <i class="fas fa-baseball text-yellow-500"></i>
+            </a>
+            <button class="lg:hidden text-gray-800">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="index.html" class="text-gray-800 hover:text-blue-500 transition">Inicio</a>
+                <a href="participants.html" class="text-white bg-blue-500 transition rounded px-4 py-2">Participantes</a>
+            </div>
+            <div class="lg:hidden absolute top-10 left-4 bg-white shadow-md">
+                <a href="index.html" class="block px-4 py-2 text-gray-800 hover:text-blue-500 transition">Inicio</a>
+                <a href="participants.html" class="block px-4 py-2 text-white bg-blue-500 transition rounded">Participantes</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="header text-3xl font-bold mb-4 text-center pt-8">Histórico de participantes de la Liga de Tenis</h1>
+    </header>
+
+    <main class="participants flex flex-wrap justify-around p-4">
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Carlos Sánchez",
+        "level": "★★★☆☆",
+        "age": "28 años",
+        "curiosity": "Carlos es conocido por su juego agresivo en la red."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Laura Gómez",
+        "level": "★★★★☆",
+        "age": "24 años",
+        "curiosity": "Laura ha ganado el premio a la jugadora más deportiva de la liga."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Martín Rodríguez",
+        "level": "★★★★☆",
+        "age": "30 años",
+        "curiosity": "Martín tiene un servicio impredecible que confunde a sus oponentes."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Laura Gómez",
+        "level": "★★★★☆",
+        "age": "24 años",
+        "curiosity": "Laura ha ganado el premio a la jugadora más deportiva de la liga."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Laura Rodríguez",
+        "level": "★★★★★",
+        "age": "26 años",
+        "curiosity": "Laura tiene un potente revés que sorprende a sus oponentes."
+      }'></include>
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Javier López",
+        "level": "★★★☆☆",
+        "age": "31 años",
+        "curiosity": "Javier ha participado en torneos internacionales representando a su país."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Ana Martínez",
+        "level": "★★★★☆",
+        "age": "27 años",
+        "curiosity": "Ana es conocida por su habilidad para realizar dejadas perfectas."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Pedro Ramírez",
+        "level": "★★★☆☆",
+        "age": "29 años",
+        "curiosity": "Pedro ha entrenado con un ex campeón de tenis."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Sofía González",
+        "level": "★★★★★",
+        "age": "25 años",
+        "curiosity": "Sofía ha ganado varios torneos locales en su ciudad natal."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Ricardo Díaz",
+        "level": "★★★★☆",
+        "age": "32 años",
+        "curiosity": "Ricardo tiene una rutina de entrenamiento única que incluye yoga y pilates."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Isabel Vargas",
+        "level": "★★★☆☆",
+        "age": "28 años",
+        "curiosity": "Isabel es una apasionada defensora de la sostenibilidad en el deporte."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Alejandro Torres",
+        "level": "★★★★☆",
+        "age": "30 años",
+        "curiosity": "Alejandro tiene el récord de más aces en una sola temporada."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Lucía Fernández",
+        "level": "★★★★★",
+        "age": "26 años",
+        "curiosity": "Lucía ha representado a su país en la Copa Federación."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Héctor Núñez",
+        "level": "★★★☆☆",
+        "age": "31 años",
+        "curiosity": "Héctor es un ávido fanático de los juegos mentales en la cancha."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Gabriela Silva",
+        "level": "★★★★☆",
+        "age": "29 años",
+        "curiosity": "Gabriela tiene un saque que a menudo supera los 200 km/h."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Daniel Mendoza",
+        "level": "★★★☆☆",
+        "age": "27 años",
+        "curiosity": "Daniel ha participado en torneos de tenis de playa en todo el mundo."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Valeria Cruz",
+        "level": "★★★★★",
+        "age": "25 años",
+        "curiosity": "Valeria ha entrenado con un entrenador olímpico de tenis."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Fernando Pérez",
+        "level": "★★★☆☆",
+        "age": "30 años",
+        "curiosity": "Fernando es conocido por su técnica perfeccionista en cada golpe."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Camila Rojas",
+        "level": "★★★★☆",
+        "age": "28 años",
+        "curiosity": "Camila ha ganado el premio a la jugadora más valiente de la liga."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Alejandro Soto",
+        "level": "★★★☆☆",
+        "age": "29 años",
+        "curiosity": "Alejandro es un apasionado defensor de la técnica clásica en el tenis."
+      }'></include>
+
+        <include src="./assets/components/participant-card.html" locals='{
+        "name": "Pedro Martínez",
+        "level": "★★★★☆",
+        "age": "19 años",
+        "curiosity": "Pedro es una joven promesa."
+      }'></include>
+
+    </main>
+    <include src="./views/footer.html"></include>
+    <footer class="bg-gray-800 text-white p-4">
+        <!-- Contenido del pie de página -->
+    </footer>
+
+    <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>

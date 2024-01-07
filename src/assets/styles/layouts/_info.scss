@@ -1,0 +1,41 @@
+.info {
+    @apply max-w-800 mx-auto p-5 border-2 border-solid border-gray-200 rounded-md mb-8 ;
+  
+    .article__title {
+      @apply text-2xl font-bold mb-4;
+    }
+
+    .article__paragraph {
+      @apply mb-4 ;
+
+    }
+  
+    .highlighted{
+      @apply text-[#007bff] font-bold;
+    }
+
+    .article__blockquote {
+      @apply mb-4 bg-[#f8d7da] border-l-4 border-[#721c24] p-2;
+    }
+  
+    .article__image {
+      @apply mb-4;
+    }
+  
+    .article__list {
+      @apply mb-4 ml-8;
+    }
+  
+    .article__list-item {
+      @apply mb-4;
+    }
+  
+    .article__list:has(.desafio) {
+      @apply text-[#006400];
+    }
+  
+    .article__list:has(.logro) {
+      @apply text-[#000080];
+    }
+  }
+  
