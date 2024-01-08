@@ -40,6 +40,28 @@ module.exports = {
         blue: {
             500: '#0d6efd', // Agrega tu código de color
         },
+        white: {
+          white : 'white'
+        },
+        grey: {
+          header: '#363c42',
+          footer: '#363c42'
+        },
+        fontFamily: {
+          sans: [
+            'Roboto',
+            '-apple-system',
+            'BlinkMacSystemFont',
+            'Segoe UI',
+            'Roboto',
+            'Helvetica Neue',
+            'Arial',
+            'sans-serif',
+            'Apple Color Emoji',
+            'Segoe UI Emoji',
+            'Segoe UI Symbol',
+          ]
+        }
       }
     }
   },

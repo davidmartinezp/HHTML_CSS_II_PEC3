@@ -27,15 +27,24 @@
     }
   
     .article__list-item {
-      @apply mb-4;
+      @apply mb-4 pl-2;
     }
   
     .article__list:has(.desafio) {
-      @apply text-[#006400];
+      @apply text-[#00009b] font-bold;
+      .article__list-item::marker {
+        content: "\f252"; /* FontAwesome Unicode */
+        font-family: "Font Awesome 5 Free", sans-serif;
+    }
     }
   
     .article__list:has(.logro) {
-      @apply text-[#000080];
+      @apply text-[#009600] font-bold;
+      .article__list-item::marker {
+        content: "\f091"; /* FontAwesome Unicode */
+        font-family: "Font Awesome 5 Free", sans-serif;
     }
+    }
+
   }
   
